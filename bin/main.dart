@@ -3,7 +3,7 @@ import 'assignment1.dart';
 void main(){
   //Three car object
   Car firstCar = Car('Mercedes', 'EQS SUV', 2016, 3000);
-  Car secondCar = Car('BMW ekta hakaw gari', 'SERIES 7', 2021, 1000);
+  Car secondCar = Car('BMW', 'SERIES 7', 2021, 1000);
   Car thirdCar = Car('Bugatti', 'Q8 e-tron', 2014, 6000);
 
   //Drive Miles
