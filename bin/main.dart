@@ -1,4 +1,4 @@
-import 'assignment1.dart';
+import 'class.dart';
 
 void main(){
   //Three car object
