@@ -4,7 +4,6 @@ class Car {
   int year;
   double milesDriven;
 
-  //Static property
   static int numbersOfCars = 0;
 
   //Constructor
@@ -13,7 +12,7 @@ class Car {
 
   }
 
-  //Method to drive the car
+  //drive the car
   void drive(double miles) {
     if (miles >= 0){
       milesDriven += miles;
@@ -23,28 +22,28 @@ class Car {
     }
   }
 
-  //Method to get miles driven
+  //get miles driven
   double getMilesDriven(){
     return milesDriven;
   }
 
-  //method to get brand
+  //get brand
   String getBrand(){
     return brand;
   }
 
-  //Method to get Model
+  //get Model
   String getModel(){
     return model;
   }
 
-  //Method to get year
+  //get year
   int getYear(){
     return year;
   }
 
 
-  //Method to get the age of the car
+  //get the age of the car
   int getAge(){
     int currentYear = DateTime.now().year;
     return currentYear - year;

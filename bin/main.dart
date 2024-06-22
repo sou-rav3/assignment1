@@ -34,8 +34,6 @@ void main(){
 
 
 
-
-
   //print car age
   print('\nFirst Car Age: ${firstCar.getAge()}');
   print('Second Car Age: ${secondCar.getAge()}');
